@@ -1,0 +1,70 @@
+# .project metadata for urunc
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "urunc"
+name: "urunc"
+description: "A CRI-compatible runtime for running unikernels and application kernels as containers.  urunc bridges the gap between unikernels and containerized environments, enabling seamless  integration with cloud-native architectures while maintaining OCI compatibility."
+type: "project"
+project_lead: "cmainas" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#urunc"
+    link: "https://slack.cncf.io/"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-05-22T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/378" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/urunc-dev/urunc"
+
+website: "https://urunc.io/"
+
+artwork: "https://landscape.cncf.io/logos/urunc.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/urunc-dev/urunc/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "urunc-dev/urunc"
+
+
+security:
+  policy:
+    path: "https://github.com/urunc-dev/urunc/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/urunc-dev/urunc/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/urunc-dev/urunc/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/urunc-dev/urunc/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/urunc-dev/urunc/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/urunc-dev/urunc/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Container Runtime"
+
+# CLOMonitor Score: 77/100
+# Documentation: 93 | License: 75 | Best Practices: 68 | Security: 59
