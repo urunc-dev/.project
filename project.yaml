@@ -23,7 +23,7 @@ repositories:
 
 website: "https://urunc.io/"
 
-artwork: "https://landscape.cncf.io/logos/urunc.svg"
+artwork: "https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/urunc/stacked/color/urunc-stacked-color.svg"
 
 adopters:
   path: "https://github.com/urunc-dev/urunc/blob/main/ADOPTERS.md"
